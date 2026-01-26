@@ -4,57 +4,57 @@ The application is designed with a layered architecture that ensures scalability
 
 Features
 ---------
-->Authentication & Security
-->User registration with unique username and email
-->Login using username and password
-->Password validation (8–20 chars, uppercase, lowercase, digit, special char)
-->Change password with old password verification
-->Forgot password using security question & answer
-->Account privacy settings (public / private)
+Authentication & Security
+User registration with unique username and email
+Login using username and password
+Password validation (8–20 chars, uppercase, lowercase, digit, special char)
+Change password with old password verification
+Forgot password using security question & answer
+Account privacy settings (public / private)
 
 Profile Management
 --------------------
-->Create and edit profile
-->View own and other user profiles
-->Creator/Business enhanced profile fields:
-->Business/Creator name
-->Category / Industry
-->Contact info
-->Address
-->Business hours
+Create and edit profile
+View own and other user profiles
+Creator/Business enhanced profile fields:
+Business/Creator name
+Category / Industry
+Contact info
+Address
+Business hours
 
 Post Management
 -----------------
-->Create posts with hashtags
-->View feed and own posts
-->Edit and delete posts
-->Repost / Share posts
+Create posts with hashtags
+View feed and own posts
+Edit and delete posts
+Repost / Share posts
 
 Social Interactions
 --------------------
-->Like / Unlike posts
-->Comment on posts
-->Edit and delete own comments
+Like / Unlike posts
+Comment on posts
+Edit and delete own comments
 
 Network Building
 -----------------
-->Send / accept / reject connection requests
-->View connections
-->Follow / Unfollow users
-->View followers & following list
+Send / accept / reject connection requests
+View connections
+Follow / Unfollow users
+View followers & following list
 
 Notifications
 --------------
-->Likes, comments, shares
-->Follow notifications
-->Connection request notifications
-->Unread count and history
+Likes, comments, shares
+Follow notifications
+Connection request notifications
+Unread count and history
 
 Creator / Business Analytics
 -----------------------------
-->Total likes per post
-->Total comments per post
-->Total shares per post
+Total likes per post
+Total comments per post
+Total shares per post
 
 Account Management
 ------------------
@@ -64,14 +64,14 @@ Account Management
 
 RevConnect follows a Layered Architecture:
 -----------------------------------------
-->Presentation Layer (UI Menus)
-->Service / Manager Layer
-->DAO Layer
-->Database Layer (MySQL)
+Presentation Layer (UI Menus)
+Service / Manager Layer
+DAO Layer
+Database Layer (MySQL)
 
  Database Design
 ------------------
-->Relational database with normalized tables and foreign key constraints.
+Relational database with normalized tables and foreign key constraints.
 
 Main Tables:
 ----------
